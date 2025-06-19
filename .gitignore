@@ -1,0 +1,63 @@
+# Node.js
+node_modules/
+npm-debug.log
+yarn-error.log
+package-lock.json
+
+# Expo / React Native
+.expo/
+*.jks
+*.p12
+*.key
+*.mobileprovision
+*.orig.*
+web-build/
+web-report/
+
+# Environment variables
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Build outputs
+dist/
+build/
+*.apk
+*.aab
+*.ipa
+
+# Logs
+logs/
+*.log
+*.log.*
+
+# Temporary files
+*.tmp
+*.bak
+*.swp
+*~
+
+# IDE and editor files
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# macOS
+.DS_Store
+
+# Cloudinary and other sensitive files
+cloudinary.config.js
+*.pem
+
+# MongoDB Atlas local configs
+*.mongo
+
+# Miscellaneous
+*.cache
+coverage/
